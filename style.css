@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CENTRALIZAÇÃO */
+body { 
+  padding-bottom: 500px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #8b4343;
+  
+}
+
+/* CONTEÚDO */
+.container {
+  text-align: center;
+  max-width: 720px;
+  padding: 20px;
+  
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  font-family: Georgia;
+  letter-spacing: 15px;
+}
+
+h2{
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-family: Georgia;
+  letter-spacing: 20px;
+}
+
+h5{
+ font-size: 20px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+
+h3{
+   font-size: 20px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-family: Georgia;
+  letter-spacing: 5px;
+}
+h6{
+  font-size: 48px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  font-family: Georgia;
+  letter-spacing: 15px;
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #807878;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  padding: 10px;
+  font-size: 18px;
+}
+
+td {
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 8px;
+}
+
+/*
+.firt {
+  margin-top: 30px;     /* espaço entre texto e imagem */
+ /* width: 100%;          /* ocupa a largura do container */
+  /*max-width: 500px;     /* limite para não estourar */
+  /*border-radius: 8px;   /* opcional, fica elegante */
+/*}*/
+
+.texto2 {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.second {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 500px;
+}
+.link-img {
+  width: 30%;
+}
+.qualidade {
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.9;
+  color:#807878;
+}
+.tabela{
+ width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+.encerramento {
+  max-width: 850px;
+  margin: 60px auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.9;
+  color: #807878;
+}
